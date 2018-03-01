@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2B68ABD2047CB41009AD0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68ABC2047CB41009AD0AA /* AppDelegate.m */; };
+		F2B68AC02047CB41009AD0AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68ABF2047CB41009AD0AA /* ViewController.m */; };
+		F2B68AC52047CB41009AD0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B68AC42047CB41009AD0AA /* Assets.xcassets */; };
+		F2B68AC82047CB41009AD0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B68AC62047CB41009AD0AA /* LaunchScreen.storyboard */; };
+		F2B68ACB2047CB41009AD0AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68ACA2047CB41009AD0AA /* main.m */; };
+		F2B68AD52047CB42009AD0AA /* MetroSeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68AD42047CB42009AD0AA /* MetroSeatTests.m */; };
+		F2B68AE02047CB42009AD0AA /* MetroSeatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68ADF2047CB42009AD0AA /* MetroSeatUITests.m */; };
+		F2B68AF02047D090009AD0AA /* TemplateList.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68AEF2047D090009AD0AA /* TemplateList.m */; };
+		F2B68AF32047D229009AD0AA /* UITableViewCell+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68AF22047D229009AD0AA /* UITableViewCell+Value.m */; };
+		F2B68AF72047D475009AD0AA /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68AF52047D475009AD0AA /* ListCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B68AD12047CB41009AD0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B68AB02047CB41009AD0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B68AB72047CB41009AD0AA;
+			remoteInfo = MetroSeat;
+		};
+		F2B68ADC2047CB42009AD0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B68AB02047CB41009AD0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B68AB72047CB41009AD0AA;
+			remoteInfo = MetroSeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2B68AB82047CB41009AD0AA /* MetroSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B68ABB2047CB41009AD0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2B68ABC2047CB41009AD0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2B68ABE2047CB41009AD0AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2B68ABF2047CB41009AD0AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2B68AC42047CB41009AD0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B68AC72047CB41009AD0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2B68AC92047CB41009AD0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B68ACA2047CB41009AD0AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2B68AD02047CB41009AD0AA /* MetroSeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroSeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B68AD42047CB42009AD0AA /* MetroSeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroSeatTests.m; sourceTree = "<group>"; };
+		F2B68AD62047CB42009AD0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B68ADB2047CB42009AD0AA /* MetroSeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetroSeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B68ADF2047CB42009AD0AA /* MetroSeatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroSeatUITests.m; sourceTree = "<group>"; };
+		F2B68AE12047CB42009AD0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B68AEE2047D090009AD0AA /* TemplateList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateList.h; sourceTree = "<group>"; };
+		F2B68AEF2047D090009AD0AA /* TemplateList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateList.m; sourceTree = "<group>"; };
+		F2B68AF12047D229009AD0AA /* UITableViewCell+Value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Value.h"; sourceTree = "<group>"; };
+		F2B68AF22047D229009AD0AA /* UITableViewCell+Value.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Value.m"; sourceTree = "<group>"; };
+		F2B68AF42047D475009AD0AA /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		F2B68AF52047D475009AD0AA /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B68AB52047CB41009AD0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B68ACD2047CB41009AD0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B68AD82047CB42009AD0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2B68AAF2047CB41009AD0AA = {
+			isa = PBXGroup;
+			children = (
+				F2B68ABA2047CB41009AD0AA /* MetroSeat */,
+				F2B68AD32047CB41009AD0AA /* MetroSeatTests */,
+				F2B68ADE2047CB42009AD0AA /* MetroSeatUITests */,
+				F2B68AB92047CB41009AD0AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B68AB92047CB41009AD0AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B68AB82047CB41009AD0AA /* MetroSeat.app */,
+				F2B68AD02047CB41009AD0AA /* MetroSeatTests.xctest */,
+				F2B68ADB2047CB42009AD0AA /* MetroSeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B68ABA2047CB41009AD0AA /* MetroSeat */ = {
+			isa = PBXGroup;
+			children = (
+				F2B68AED2047D024009AD0AA /* Template */,
+				F2B68ABB2047CB41009AD0AA /* AppDelegate.h */,
+				F2B68ABC2047CB41009AD0AA /* AppDelegate.m */,
+				F2B68ABE2047CB41009AD0AA /* ViewController.h */,
+				F2B68ABF2047CB41009AD0AA /* ViewController.m */,
+				F2B68AC42047CB41009AD0AA /* Assets.xcassets */,
+				F2B68AC62047CB41009AD0AA /* LaunchScreen.storyboard */,
+				F2B68AC92047CB41009AD0AA /* Info.plist */,
+				F2B68ACA2047CB41009AD0AA /* main.m */,
+			);
+			path = MetroSeat;
+			sourceTree = "<group>";
+		};
+		F2B68AD32047CB41009AD0AA /* MetroSeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B68AD42047CB42009AD0AA /* MetroSeatTests.m */,
+				F2B68AD62047CB42009AD0AA /* Info.plist */,
+			);
+			path = MetroSeatTests;
+			sourceTree = "<group>";
+		};
+		F2B68ADE2047CB42009AD0AA /* MetroSeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B68ADF2047CB42009AD0AA /* MetroSeatUITests.m */,
+				F2B68AE12047CB42009AD0AA /* Info.plist */,
+			);
+			path = MetroSeatUITests;
+			sourceTree = "<group>";
+		};
+		F2B68AED2047D024009AD0AA /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				F2B68AEE2047D090009AD0AA /* TemplateList.h */,
+				F2B68AEF2047D090009AD0AA /* TemplateList.m */,
+				F2B68AF12047D229009AD0AA /* UITableViewCell+Value.h */,
+				F2B68AF22047D229009AD0AA /* UITableViewCell+Value.m */,
+				F2B68AF42047D475009AD0AA /* ListCell.h */,
+				F2B68AF52047D475009AD0AA /* ListCell.m */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B68AB72047CB41009AD0AA /* MetroSeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B68AE42047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeat" */;
+			buildPhases = (
+				F2B68AB42047CB41009AD0AA /* Sources */,
+				F2B68AB52047CB41009AD0AA /* Frameworks */,
+				F2B68AB62047CB41009AD0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetroSeat;
+			productName = MetroSeat;
+			productReference = F2B68AB82047CB41009AD0AA /* MetroSeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B68ACF2047CB41009AD0AA /* MetroSeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B68AE72047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeatTests" */;
+			buildPhases = (
+				F2B68ACC2047CB41009AD0AA /* Sources */,
+				F2B68ACD2047CB41009AD0AA /* Frameworks */,
+				F2B68ACE2047CB41009AD0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B68AD22047CB41009AD0AA /* PBXTargetDependency */,
+			);
+			name = MetroSeatTests;
+			productName = MetroSeatTests;
+			productReference = F2B68AD02047CB41009AD0AA /* MetroSeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2B68ADA2047CB42009AD0AA /* MetroSeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B68AEA2047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeatUITests" */;
+			buildPhases = (
+				F2B68AD72047CB42009AD0AA /* Sources */,
+				F2B68AD82047CB42009AD0AA /* Frameworks */,
+				F2B68AD92047CB42009AD0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B68ADD2047CB42009AD0AA /* PBXTargetDependency */,
+			);
+			name = MetroSeatUITests;
+			productName = MetroSeatUITests;
+			productReference = F2B68ADB2047CB42009AD0AA /* MetroSeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B68AB02047CB41009AD0AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Gary;
+				TargetAttributes = {
+					F2B68AB72047CB41009AD0AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F2B68ACF2047CB41009AD0AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2B68AB72047CB41009AD0AA;
+					};
+					F2B68ADA2047CB42009AD0AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2B68AB72047CB41009AD0AA;
+					};
+				};
+			};
+			buildConfigurationList = F2B68AB32047CB41009AD0AA /* Build configuration list for PBXProject "MetroSeat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B68AAF2047CB41009AD0AA;
+			productRefGroup = F2B68AB92047CB41009AD0AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B68AB72047CB41009AD0AA /* MetroSeat */,
+				F2B68ACF2047CB41009AD0AA /* MetroSeatTests */,
+				F2B68ADA2047CB42009AD0AA /* MetroSeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B68AB62047CB41009AD0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B68AC82047CB41009AD0AA /* LaunchScreen.storyboard in Resources */,
+				F2B68AC52047CB41009AD0AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B68ACE2047CB41009AD0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B68AD92047CB42009AD0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B68AB42047CB41009AD0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B68AC02047CB41009AD0AA /* ViewController.m in Sources */,
+				F2B68AF72047D475009AD0AA /* ListCell.m in Sources */,
+				F2B68AF02047D090009AD0AA /* TemplateList.m in Sources */,
+				F2B68AF32047D229009AD0AA /* UITableViewCell+Value.m in Sources */,
+				F2B68ACB2047CB41009AD0AA /* main.m in Sources */,
+				F2B68ABD2047CB41009AD0AA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B68ACC2047CB41009AD0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B68AD52047CB42009AD0AA /* MetroSeatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B68AD72047CB42009AD0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B68AE02047CB42009AD0AA /* MetroSeatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B68AD22047CB41009AD0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B68AB72047CB41009AD0AA /* MetroSeat */;
+			targetProxy = F2B68AD12047CB41009AD0AA /* PBXContainerItemProxy */;
+		};
+		F2B68ADD2047CB42009AD0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B68AB72047CB41009AD0AA /* MetroSeat */;
+			targetProxy = F2B68ADC2047CB42009AD0AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2B68AC62047CB41009AD0AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B68AC72047CB41009AD0AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B68AE22047CB42009AD0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2B68AE32047CB42009AD0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B68AE52047CB42009AD0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J55PX5JV76;
+				INFOPLIST_FILE = MetroSeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heguang.metro.seat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B68AE62047CB42009AD0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J55PX5JV76;
+				INFOPLIST_FILE = MetroSeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heguang.metro.seat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2B68AE82047CB42009AD0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6SHUFSB65;
+				INFOPLIST_FILE = MetroSeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.MetroSeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroSeat.app/MetroSeat";
+			};
+			name = Debug;
+		};
+		F2B68AE92047CB42009AD0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6SHUFSB65;
+				INFOPLIST_FILE = MetroSeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.MetroSeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetroSeat.app/MetroSeat";
+			};
+			name = Release;
+		};
+		F2B68AEB2047CB42009AD0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6SHUFSB65;
+				INFOPLIST_FILE = MetroSeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.MetroSeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroSeat;
+			};
+			name = Debug;
+		};
+		F2B68AEC2047CB42009AD0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6SHUFSB65;
+				INFOPLIST_FILE = MetroSeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.MetroSeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MetroSeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B68AB32047CB41009AD0AA /* Build configuration list for PBXProject "MetroSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B68AE22047CB42009AD0AA /* Debug */,
+				F2B68AE32047CB42009AD0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B68AE42047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B68AE52047CB42009AD0AA /* Debug */,
+				F2B68AE62047CB42009AD0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B68AE72047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B68AE82047CB42009AD0AA /* Debug */,
+				F2B68AE92047CB42009AD0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B68AEA2047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B68AEB2047CB42009AD0AA /* Debug */,
+				F2B68AEC2047CB42009AD0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B68AB02047CB41009AD0AA /* Project object */;
+}

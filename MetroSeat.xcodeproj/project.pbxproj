@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EFE122B497695266D1359DC /* libPods-MetroSeatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9954CC5965E76E87CF32B0E /* libPods-MetroSeatUITests.a */; };
+		477E646957EAFBF3579E6C02 /* libPods-MetroSeat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4F43D871984A4C63D72B8A /* libPods-MetroSeat.a */; };
+		9AFA31F4367850E842D28B7C /* libPods-MetroSeatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55981E5CD836AD3C29A23661 /* libPods-MetroSeatTests.a */; };
 		F2B68ABD2047CB41009AD0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68ABC2047CB41009AD0AA /* AppDelegate.m */; };
 		F2B68AC02047CB41009AD0AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B68ABF2047CB41009AD0AA /* ViewController.m */; };
 		F2B68AC52047CB41009AD0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B68AC42047CB41009AD0AA /* Assets.xcassets */; };
@@ -37,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FF57870B9CF2BB833D6A844 /* Pods-MetroSeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetroSeatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetroSeatTests/Pods-MetroSeatTests.release.xcconfig"; sourceTree = "<group>"; };
+		4689E5E0E92AD27E629055CC /* Pods-MetroSeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetroSeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetroSeat/Pods-MetroSeat.debug.xcconfig"; sourceTree = "<group>"; };
+		55981E5CD836AD3C29A23661 /* libPods-MetroSeatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetroSeatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A59061B39BCB496612F89E1 /* Pods-MetroSeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetroSeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetroSeat/Pods-MetroSeat.release.xcconfig"; sourceTree = "<group>"; };
+		66E29B070CA189C71121100F /* Pods-MetroSeatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetroSeatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetroSeatUITests/Pods-MetroSeatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4F43D871984A4C63D72B8A /* libPods-MetroSeat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetroSeat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D187801B02CBB5D03B97C218 /* Pods-MetroSeatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetroSeatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetroSeatUITests/Pods-MetroSeatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9954CC5965E76E87CF32B0E /* libPods-MetroSeatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetroSeatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22297838D46EB6680F9F433 /* Pods-MetroSeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetroSeatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetroSeatTests/Pods-MetroSeatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2B68AB82047CB41009AD0AA /* MetroSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B68ABB2047CB41009AD0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2B68ABC2047CB41009AD0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477E646957EAFBF3579E6C02 /* libPods-MetroSeat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFA31F4367850E842D28B7C /* libPods-MetroSeatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFE122B497695266D1359DC /* libPods-MetroSeatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32061C8C905DD50C7B460319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC4F43D871984A4C63D72B8A /* libPods-MetroSeat.a */,
+				55981E5CD836AD3C29A23661 /* libPods-MetroSeatTests.a */,
+				D9954CC5965E76E87CF32B0E /* libPods-MetroSeatUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52B4A57F58979A650E8D2409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4689E5E0E92AD27E629055CC /* Pods-MetroSeat.debug.xcconfig */,
+				5A59061B39BCB496612F89E1 /* Pods-MetroSeat.release.xcconfig */,
+				F22297838D46EB6680F9F433 /* Pods-MetroSeatTests.debug.xcconfig */,
+				0FF57870B9CF2BB833D6A844 /* Pods-MetroSeatTests.release.xcconfig */,
+				66E29B070CA189C71121100F /* Pods-MetroSeatUITests.debug.xcconfig */,
+				D187801B02CBB5D03B97C218 /* Pods-MetroSeatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F2B68AAF2047CB41009AD0AA = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +130,8 @@
 				F2B68AD32047CB41009AD0AA /* MetroSeatTests */,
 				F2B68ADE2047CB42009AD0AA /* MetroSeatUITests */,
 				F2B68AB92047CB41009AD0AA /* Products */,
+				52B4A57F58979A650E8D2409 /* Pods */,
+				32061C8C905DD50C7B460319 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B68AE42047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeat" */;
 			buildPhases = (
+				5B7FD0A09930C222D97652CD /* [CP] Check Pods Manifest.lock */,
 				F2B68AB42047CB41009AD0AA /* Sources */,
 				F2B68AB52047CB41009AD0AA /* Frameworks */,
 				F2B68AB62047CB41009AD0AA /* Resources */,
+				9557385A8000A62BBCAE13DB /* [CP] Embed Pods Frameworks */,
+				D3677D2F13643CE3F3A70162 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B68AE72047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeatTests" */;
 			buildPhases = (
+				C2F1D94409E13E1A2BDCB0DE /* [CP] Check Pods Manifest.lock */,
 				F2B68ACC2047CB41009AD0AA /* Sources */,
 				F2B68ACD2047CB41009AD0AA /* Frameworks */,
 				F2B68ACE2047CB41009AD0AA /* Resources */,
+				8262983AB211703D702CF42F /* [CP] Embed Pods Frameworks */,
+				3ED79CCDDF96101EDE2EABF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2B68AEA2047CB42009AD0AA /* Build configuration list for PBXNativeTarget "MetroSeatUITests" */;
 			buildPhases = (
+				A77366EF2C82614CFA0929D3 /* [CP] Check Pods Manifest.lock */,
 				F2B68AD72047CB42009AD0AA /* Sources */,
 				F2B68AD82047CB42009AD0AA /* Frameworks */,
 				F2B68AD92047CB42009AD0AA /* Resources */,
+				55A5EC810A6C9E33DA478438 /* [CP] Embed Pods Frameworks */,
+				3BD1658B7E281DBBCC8709D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +327,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BD1658B7E281DBBCC8709D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetroSeatUITests/Pods-MetroSeatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED79CCDDF96101EDE2EABF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetroSeatTests/Pods-MetroSeatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A5EC810A6C9E33DA478438 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetroSeatUITests/Pods-MetroSeatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B7FD0A09930C222D97652CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetroSeat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8262983AB211703D702CF42F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetroSeatTests/Pods-MetroSeatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9557385A8000A62BBCAE13DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetroSeat/Pods-MetroSeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77366EF2C82614CFA0929D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetroSeatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F1D94409E13E1A2BDCB0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MetroSeatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3677D2F13643CE3F3A70162 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MetroSeat/Pods-MetroSeat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2B68AB42047CB41009AD0AA /* Sources */ = {
@@ -442,6 +638,7 @@
 		};
 		F2B68AE52047CB42009AD0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4689E5E0E92AD27E629055CC /* Pods-MetroSeat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -459,6 +656,7 @@
 		};
 		F2B68AE62047CB42009AD0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A59061B39BCB496612F89E1 /* Pods-MetroSeat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -476,6 +674,7 @@
 		};
 		F2B68AE82047CB42009AD0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22297838D46EB6680F9F433 /* Pods-MetroSeatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +690,7 @@
 		};
 		F2B68AE92047CB42009AD0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF57870B9CF2BB833D6A844 /* Pods-MetroSeatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -506,6 +706,7 @@
 		};
 		F2B68AEB2047CB42009AD0AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E29B070CA189C71121100F /* Pods-MetroSeatUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6SHUFSB65;
@@ -520,6 +721,7 @@
 		};
 		F2B68AEC2047CB42009AD0AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D187801B02CBB5D03B97C218 /* Pods-MetroSeatUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6SHUFSB65;

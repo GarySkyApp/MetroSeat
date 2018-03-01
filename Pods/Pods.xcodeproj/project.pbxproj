@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BB557455C777D333E614A1542C9279 /* Pods-MetroSeat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2656284B3E4DEEE4A651978CBEDCEED /* Pods-MetroSeat-dummy.m */; };
+		7EB79BCDC51C2DA777040ABA45D37C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		83C8A2B2F0A30BFA80B252C008C42257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		88B9D8CDD1F70A173EBF6D2B073C010C /* Pods-MetroSeatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFC83CDD67BB930CF871FB587CF13D /* Pods-MetroSeatUITests-dummy.m */; };
+		8A90C5B5E3C8B360EDACFAA73AC3ABA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BD0A98B6D1A3D737D3067F9A0F472D21 /* Pods-MetroSeatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C063757256B0340EE9332802AABABB8 /* Pods-MetroSeatTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054082E176AAA534A695AFE393A13375 /* Pods-MetroSeatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetroSeatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C1DD4875EC526923270C742A78C368A /* Pods-MetroSeat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetroSeat-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A1BFDEAEB051C6EC739453E7860A030 /* Pods-MetroSeatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetroSeatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD7832C6FD9A89D04A152024651ABED /* Pods-MetroSeat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetroSeat-resources.sh"; sourceTree = "<group>"; };
+		3B90FCE785E3F50F9B45FEC4B4D6AEA0 /* libPods-MetroSeatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MetroSeatUITests.a"; path = "libPods-MetroSeatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54CFF9F16EA11F5657A8D4683213FF1B /* Pods-MetroSeat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetroSeat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54E25BD32BFF3BABD6601FAEFD59548C /* Pods-MetroSeatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetroSeatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B9ECAAE8AFC1F5D648759D6707F7953 /* Pods-MetroSeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetroSeatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F0A7C57F8681C6C722BC07C5EC310D3 /* Pods-MetroSeatTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetroSeatTests-frameworks.sh"; sourceTree = "<group>"; };
+		61648585483BEA4D2D331D1601B9E3A0 /* libPods-MetroSeat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MetroSeat.a"; path = "libPods-MetroSeat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BB95A3301FFC6DE796E3DCFBD824260 /* Pods-MetroSeatTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetroSeatTests-resources.sh"; sourceTree = "<group>"; };
+		8245F07A7D714094904BEFD8D637A224 /* Pods-MetroSeatUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetroSeatUITests-resources.sh"; sourceTree = "<group>"; };
+		846F90349C74D44BE319485C1AA251C1 /* Pods-MetroSeat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetroSeat-frameworks.sh"; sourceTree = "<group>"; };
+		8C063757256B0340EE9332802AABABB8 /* Pods-MetroSeatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetroSeatTests-dummy.m"; sourceTree = "<group>"; };
+		8D55CFB9E1B1A1D53CC4BB218C4F4118 /* Pods-MetroSeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetroSeatTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DCFC83CDD67BB930CF871FB587CF13D /* Pods-MetroSeatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetroSeatUITests-dummy.m"; sourceTree = "<group>"; };
+		9231BD9B4D4E6A1F1B8BE8806A6DD2FD /* Pods-MetroSeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetroSeat.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D6E54225D373F8BAC6BD3CDD1008927 /* libPods-MetroSeatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MetroSeatTests.a"; path = "libPods-MetroSeatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D775885F5996EE5226B1316FB8ACF52 /* Pods-MetroSeatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetroSeatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B388A7BA15B0E3E40E56960D7DAA6734 /* Pods-MetroSeatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetroSeatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE4BDEF94F3874987BF45D49095B37C2 /* Pods-MetroSeatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetroSeatUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C2656284B3E4DEEE4A651978CBEDCEED /* Pods-MetroSeat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetroSeat-dummy.m"; sourceTree = "<group>"; };
+		DBE5408B0B69381DBC847B72C05FA717 /* Pods-MetroSeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetroSeat.release.xcconfig"; sourceTree = "<group>"; };
+		E80353B8D9261C4EF0C851D2B303F52F /* Pods-MetroSeatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetroSeatUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0722080EA216FC33F288BF7FDF5B5B34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB79BCDC51C2DA777040ABA45D37C4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0E9EF696F5A410174D6541AF32A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A90C5B5E3C8B360EDACFAA73AC3ABA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6AB3F657B8B36240FACE3E206221D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C8A2B2F0A30BFA80B252C008C42257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C40B6698BDA87B906F77093BD67B091 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DCF7DB55AB1622C8BB78F09227F12ED /* Pods-MetroSeat */,
+				5B4AE0BB6D2931146497C5FAA643FC7B /* Pods-MetroSeatTests */,
+				73EE7E358EE90AD2D070765DBC30149E /* Pods-MetroSeatUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B4AE0BB6D2931146497C5FAA643FC7B /* Pods-MetroSeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				54E25BD32BFF3BABD6601FAEFD59548C /* Pods-MetroSeatTests-acknowledgements.markdown */,
+				054082E176AAA534A695AFE393A13375 /* Pods-MetroSeatTests-acknowledgements.plist */,
+				8C063757256B0340EE9332802AABABB8 /* Pods-MetroSeatTests-dummy.m */,
+				5F0A7C57F8681C6C722BC07C5EC310D3 /* Pods-MetroSeatTests-frameworks.sh */,
+				6BB95A3301FFC6DE796E3DCFBD824260 /* Pods-MetroSeatTests-resources.sh */,
+				5B9ECAAE8AFC1F5D648759D6707F7953 /* Pods-MetroSeatTests.debug.xcconfig */,
+				8D55CFB9E1B1A1D53CC4BB218C4F4118 /* Pods-MetroSeatTests.release.xcconfig */,
+			);
+			name = "Pods-MetroSeatTests";
+			path = "Target Support Files/Pods-MetroSeatTests";
+			sourceTree = "<group>";
+		};
+		5DCF7DB55AB1622C8BB78F09227F12ED /* Pods-MetroSeat */ = {
+			isa = PBXGroup;
+			children = (
+				54CFF9F16EA11F5657A8D4683213FF1B /* Pods-MetroSeat-acknowledgements.markdown */,
+				2C1DD4875EC526923270C742A78C368A /* Pods-MetroSeat-acknowledgements.plist */,
+				C2656284B3E4DEEE4A651978CBEDCEED /* Pods-MetroSeat-dummy.m */,
+				846F90349C74D44BE319485C1AA251C1 /* Pods-MetroSeat-frameworks.sh */,
+				3AD7832C6FD9A89D04A152024651ABED /* Pods-MetroSeat-resources.sh */,
+				9231BD9B4D4E6A1F1B8BE8806A6DD2FD /* Pods-MetroSeat.debug.xcconfig */,
+				DBE5408B0B69381DBC847B72C05FA717 /* Pods-MetroSeat.release.xcconfig */,
+			);
+			name = "Pods-MetroSeat";
+			path = "Target Support Files/Pods-MetroSeat";
+			sourceTree = "<group>";
+		};
+		73EE7E358EE90AD2D070765DBC30149E /* Pods-MetroSeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D775885F5996EE5226B1316FB8ACF52 /* Pods-MetroSeatUITests-acknowledgements.markdown */,
+				B388A7BA15B0E3E40E56960D7DAA6734 /* Pods-MetroSeatUITests-acknowledgements.plist */,
+				8DCFC83CDD67BB930CF871FB587CF13D /* Pods-MetroSeatUITests-dummy.m */,
+				BE4BDEF94F3874987BF45D49095B37C2 /* Pods-MetroSeatUITests-frameworks.sh */,
+				8245F07A7D714094904BEFD8D637A224 /* Pods-MetroSeatUITests-resources.sh */,
+				3A1BFDEAEB051C6EC739453E7860A030 /* Pods-MetroSeatUITests.debug.xcconfig */,
+				E80353B8D9261C4EF0C851D2B303F52F /* Pods-MetroSeatUITests.release.xcconfig */,
+			);
+			name = "Pods-MetroSeatUITests";
+			path = "Target Support Files/Pods-MetroSeatUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C7CD59B8B7541FAC5A038ADC42A0C4A5 /* Products */,
+				3C40B6698BDA87B906F77093BD67B091 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7CD59B8B7541FAC5A038ADC42A0C4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61648585483BEA4D2D331D1601B9E3A0 /* libPods-MetroSeat.a */,
+				9D6E54225D373F8BAC6BD3CDD1008927 /* libPods-MetroSeatTests.a */,
+				3B90FCE785E3F50F9B45FEC4B4D6AEA0 /* libPods-MetroSeatUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B188CEABA9A1F14E5B23DF9D4A1D37E /* Pods-MetroSeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED1B4E15F1EFFBA2C7649112D90BBF4 /* Build configuration list for PBXNativeTarget "Pods-MetroSeatUITests" */;
+			buildPhases = (
+				CD046E2C0A7BAF4C722E9BE769E0541C /* Sources */,
+				0722080EA216FC33F288BF7FDF5B5B34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MetroSeatUITests";
+			productName = "Pods-MetroSeatUITests";
+			productReference = 3B90FCE785E3F50F9B45FEC4B4D6AEA0 /* libPods-MetroSeatUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1E61F1D471FD9E03BD7DBB4B0179D7A5 /* Pods-MetroSeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F218A651134FA2A434E2885B75AEF9DB /* Build configuration list for PBXNativeTarget "Pods-MetroSeat" */;
+			buildPhases = (
+				577564E0AC4EC7197C203043F63B471D /* Sources */,
+				AF6AB3F657B8B36240FACE3E206221D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MetroSeat";
+			productName = "Pods-MetroSeat";
+			productReference = 61648585483BEA4D2D331D1601B9E3A0 /* libPods-MetroSeat.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AE1DCC6E3E8D3FEDDEBD1958E49C11 /* Pods-MetroSeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9090CE687AC0C6A90465AA09CE08ED /* Build configuration list for PBXNativeTarget "Pods-MetroSeatTests" */;
+			buildPhases = (
+				7EF60B8AC415B6AC25C879B41648B0DC /* Sources */,
+				A4F0E9EF696F5A410174D6541AF32A59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MetroSeatTests";
+			productName = "Pods-MetroSeatTests";
+			productReference = 9D6E54225D373F8BAC6BD3CDD1008927 /* libPods-MetroSeatTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C7CD59B8B7541FAC5A038ADC42A0C4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E61F1D471FD9E03BD7DBB4B0179D7A5 /* Pods-MetroSeat */,
+				D2AE1DCC6E3E8D3FEDDEBD1958E49C11 /* Pods-MetroSeatTests */,
+				1B188CEABA9A1F14E5B23DF9D4A1D37E /* Pods-MetroSeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577564E0AC4EC7197C203043F63B471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BB557455C777D333E614A1542C9279 /* Pods-MetroSeat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF60B8AC415B6AC25C879B41648B0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0A98B6D1A3D737D3067F9A0F472D21 /* Pods-MetroSeatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD046E2C0A7BAF4C722E9BE769E0541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B9D8CDD1F70A173EBF6D2B073C010C /* Pods-MetroSeatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		042377373B4205175F928E2FD5264FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9ECAAE8AFC1F5D648759D6707F7953 /* Pods-MetroSeatTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E1AAE2B19BE8DBE05DA3CC5F14CAB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D55CFB9E1B1A1D53CC4BB218C4F4118 /* Pods-MetroSeatTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D35EE95DCB6052841E1770981B5E036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1BFDEAEB051C6EC739453E7860A030 /* Pods-MetroSeatUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B75D33CAA0051551378A1C7016DBC964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80353B8D9261C4EF0C851D2B303F52F /* Pods-MetroSeatUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCCAEA1F03A7269C20A3181B32C7B35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9231BD9B4D4E6A1F1B8BE8806A6DD2FD /* Pods-MetroSeat.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D89C0B6041F429111B38AE35F473662F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE5408B0B69381DBC847B72C05FA717 /* Pods-MetroSeat.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ED1B4E15F1EFFBA2C7649112D90BBF4 /* Build configuration list for PBXNativeTarget "Pods-MetroSeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D35EE95DCB6052841E1770981B5E036 /* Debug */,
+				B75D33CAA0051551378A1C7016DBC964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9090CE687AC0C6A90465AA09CE08ED /* Build configuration list for PBXNativeTarget "Pods-MetroSeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042377373B4205175F928E2FD5264FC3 /* Debug */,
+				1E1AAE2B19BE8DBE05DA3CC5F14CAB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F218A651134FA2A434E2885B75AEF9DB /* Build configuration list for PBXNativeTarget "Pods-MetroSeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCAEA1F03A7269C20A3181B32C7B35D /* Debug */,
+				D89C0B6041F429111B38AE35F473662F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

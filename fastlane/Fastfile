@@ -1,0 +1,33 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+	
+	lane :toPgyer do
+		# 开始打包
+    		gym(# use_legacy_build_api: true,  # Xcode 9之后，需要去掉
+        		output_name: "MetroSeat",  # 输出的ipa名称
+			scheme:"MetroSeat",
+        		silent: true,  # 隐藏没有必要的信息
+        		clean: true,  # 在构建前先clean
+        		configuration: "Release",  # 配置为Release版本
+        		codesigning_identity: "iPhone Distribution: HeGuang Jiang (J55PX5JV76)",  # 代码签名证书
+        		buildlog_path: "./fastlanelog",  # fastlane构建ipa的日志输出目录
+        		export_method: "ad-hoc", # Xcode 9增加export_method标签
+        		output_directory: "./")  # ipa输出目录
+	end
+end

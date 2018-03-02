@@ -34,7 +34,7 @@ platform :ios do
 	        clean: true,  # 在构建前先clean
 	        configuration: "Release",  # 配置为Release版本
 	        scheme:"MetroSeat",
-	        codesigning_identity: "iPhone Distribution: HeGuang Jiang (J55PX5JV76)",  # 代码签名证书
+	        codesigning_identity: "MetroSeat_Distribution",  # 代码签名证书
 	        buildlog_path: "./fastlanelog",  # fastlane构建ipa的日志输出目录
 	        export_method: "ad-hoc", # Xcode 9增加export_method标签
 	        output_directory: "./")  # ipa输出目录
